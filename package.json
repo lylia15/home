@@ -1,0 +1,17 @@
+{
+  "name": "lyliaproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lambda-serve": "netlify-lambda serve .netlify/functions",
+    "lambda-build": "netlify-lambda build .netlify/functions"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^4.2.1",
+    "netlify-lambda": "^2.0.15"
+  }
+}
